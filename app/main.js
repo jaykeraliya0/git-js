@@ -10,7 +10,7 @@ switch (command) {
     break;
 
   case "cat-file":
-    catFile(process.argv[3]);
+    catFile(process.argv[4]);
     break;
   default:
     throw new Error(`Unknown command ${command}`);
